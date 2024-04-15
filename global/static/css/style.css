@@ -1,0 +1,61 @@
+/* Estilos para o header */
+body{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: #181818;
+}
+
+header {
+    background-color: #181818; /* Cor de fundo */
+    padding: 5px 0; /* Espaçamento interno (cima e baixo, esquerda e direita) */
+    margin-bottom: 60px;
+
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    text-align: center; /* Centralizar o texto */
+}
+
+/* Estilos para a lista não ordenada (ul) */
+ul {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover preenchimento padrão da lista */
+    
+}
+
+/* Estilos para os itens de lista (li) */
+li {
+    display: inline-block; /* Exibir os itens de lista em linha */
+    margin-right: 20px; /* Espaçamento à direita entre os itens de lista */
+}
+
+/* Estilos para os links (a) */
+a {
+    color: #dcdbdb; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado do link */
+    font-weight: bold; /* Negrito */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilos para os links quando estão sendo passados com o mouse */
+a:hover {
+    color: #8a8a88; /* Mudar a cor do texto quando o mouse passa por cima */
+}
+
+/* Estilo para a imagem */
+.imagem_dev {
+    width: 400px; /* Definir a largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */   
+    float: left; /* Posicionar a imagem no lado esquerdo */
+    margin-right: 300px; /* Adicionar margem à direita para separar o conteúdo */
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+h1{
+    color: #dd0b16;
+    font-size: 24px; /* Definir o tamanho da fonte para 18 pixels */
+    
+}
