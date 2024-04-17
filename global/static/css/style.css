@@ -3,15 +3,18 @@ body{
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
-    background-color: #181818;
+    background-color: #f2f2f2;
 }
 
 header {
-    background-color: #181818; /* Cor de fundo */
-    padding: 5px 0; /* Espaçamento interno (cima e baixo, esquerda e direita) */
+    background-color: #2ecc71; /* Cor de fundo */
+    padding: 10px 0; /* Espaçamento interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Sombra mais forte */
     margin-bottom: 60px;
 
 }
+
+
 
 /* Estilos para a barra de navegação */
 nav {
@@ -28,20 +31,20 @@ ul {
 /* Estilos para os itens de lista (li) */
 li {
     display: inline-block; /* Exibir os itens de lista em linha */
-    margin-right: 20px; /* Espaçamento à direita entre os itens de lista */
+    margin-right: 30px; /* Espaçamento à direita entre os itens de lista */
 }
 
 /* Estilos para os links (a) */
 a {
-    color: #dcdbdb; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
     text-decoration: none; /* Remover sublinhado do link */
     font-weight: bold; /* Negrito */
-    font-size: 16px; /* Tamanho da fonte */
+    font-size: 18px; /* Tamanho da fonte */
 }
 
 /* Estilos para os links quando estão sendo passados com o mouse */
 a:hover {
-    color: #8a8a88; /* Mudar a cor do texto quando o mouse passa por cima */
+    color: #1a8e4b; /* Mudar a cor do texto quando o mouse passa por cima */
 }
 
 /* Estilo para a imagem */
@@ -55,7 +58,29 @@ a:hover {
 }
 
 h1{
-    color: #dd0b16;
+    color: #ff0000;
     font-size: 24px; /* Definir o tamanho da fonte para 18 pixels */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     
+}
+
+h2{
+    color: #333333;
+    font-size: 18px; /* Definir o tamanho da fonte para 18 pixels */
+    margin-left: 25%;
+    font-family: Arial, sans-serif;
+    width: 60%;
+}
+
+.quadro {
+    background-color: #f0f0f0; /* Cor de fundo do quadro */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+    width: 30%;
+    margin-left: 40%;
+}
+
+.quadro p {
+    margin: 0; /* Remover margem padrão dos parágrafos dentro do quadro */
 }
