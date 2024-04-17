@@ -3,11 +3,12 @@ body{
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
-    background-color: #f2f2f2;
+    background-color: #e4e5e3;
+    background-image: url('../images/fosco.jpg');
 }
 
 header {
-    background-color: #2ecc71; /* Cor de fundo */
+    background-color: #1e1e1e; /* Cor de fundo */
     padding: 10px 0; /* Espaçamento interno */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Sombra mais forte */
     margin-bottom: 60px;
@@ -51,36 +52,62 @@ a:hover {
 .imagem_dev {
     width: 400px; /* Definir a largura da imagem */
     height: auto; /* Altura automática para manter a proporção */   
-    float: left; /* Posicionar a imagem no lado esquerdo */
-    margin-right: 300px; /* Adicionar margem à direita para separar o conteúdo */
-    margin-left: 20px;
+   
+    margin-left: 40px;
     border-radius: 50%;
 }
 
 h1{
-    color: #ff0000;
+    color: #e1e1e1;
     font-size: 24px; /* Definir o tamanho da fonte para 18 pixels */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
     
 }
 
 h2{
-    color: #333333;
+    color: #2b2b2b;
     font-size: 18px; /* Definir o tamanho da fonte para 18 pixels */
-    margin-left: 25%;
+    text-align: justify;
+    padding: 20px;
     font-family: Arial, sans-serif;
-    width: 60%;
+    width: 90%;
 }
 
 .quadro {
-    background-color: #f0f0f0; /* Cor de fundo do quadro */
+    background-color: #959393; /* Cor de fundo do quadro */
     border-radius: 10px; /* Borda arredondada */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 20px; /* Espaçamento interno */
-    width: 30%;
-    margin-left: 40%;
+    width: 38%;
+    
+    
 }
+
+.quadro_home1{
+    margin-left: 250px;
+    margin-top: 50px;
+    text-align: center; /* Centralizar o texto */
+}
+
+.quadro_home2{
+    margin-left: 250px;
+    margin-top: 50px;
+    text-align: center; /* Centralizar o texto */
+}
+
+
+
 
 .quadro p {
     margin: 0; /* Remover margem padrão dos parágrafos dentro do quadro */
+}
+
+div{
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
+    vertical-align: top;
+
+    
 }
