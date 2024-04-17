@@ -57,6 +57,20 @@ a:hover {
     border-radius: 50%;
 }
 
+.imagem_cafe{
+    width: 300px; /* Definir a largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */  
+    margin-left: 120px;
+    border-radius: 50%;
+}
+
+.imagem_python{
+    width: 200px; /* Definir a largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */  
+    margin-left: 120px;
+
+}
+
 h1{
     color: #e1e1e1;
     font-size: 24px; /* Definir o tamanho da fonte para 18 pixels */
@@ -96,6 +110,10 @@ h2{
     text-align: center; /* Centralizar o texto */
 }
 
+.quadro_skills1{
+    text-align: center; /* Centralizar o texto */
+}
+
 
 
 
@@ -108,6 +126,6 @@ div{
     padding: 20px;
     align-items: center;
     vertical-align: top;
-
+    width: 100%;
     
 }
