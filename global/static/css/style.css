@@ -50,7 +50,7 @@ a:hover {
 
 /* Estilo para a imagem */
 .imagem_dev {
-    width: 400px; /* Definir a largura da imagem */
+    width: 320px; /* Definir a largura da imagem */
     height: auto; /* Altura automática para manter a proporção */   
    
     margin-left: 40px;
@@ -60,14 +60,15 @@ a:hover {
 .imagem_cafe{
     width: 300px; /* Definir a largura da imagem */
     height: auto; /* Altura automática para manter a proporção */  
-    margin-left: 120px;
+    margin-left: 10%;
     border-radius: 50%;
 }
 
-.imagem_python{
+.imagens_skills{
     width: 200px; /* Definir a largura da imagem */
     height: auto; /* Altura automática para manter a proporção */  
-    margin-left: 120px;
+    margin-left: 75px;
+    border-radius: 10%;
 
 }
 
@@ -93,29 +94,25 @@ h2{
     border-radius: 10px; /* Borda arredondada */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 20px; /* Espaçamento interno */
-    width: 38%;
+    width: 33%;
     
     
 }
 
 .quadro_home1{
-    margin-left: 250px;
-    margin-top: 50px;
+    margin-left: 200px;
     text-align: center; /* Centralizar o texto */
 }
 
 .quadro_home2{
-    margin-left: 250px;
-    margin-top: 50px;
+    margin-left: 10%;
     text-align: center; /* Centralizar o texto */
 }
 
-.quadro_skills1{
+.quadro_sobre_contatos{
+    margin-left: 30%;
     text-align: center; /* Centralizar o texto */
 }
-
-
-
 
 .quadro p {
     margin: 0; /* Remover margem padrão dos parágrafos dentro do quadro */
@@ -127,5 +124,6 @@ div{
     align-items: center;
     vertical-align: top;
     width: 100%;
+    margin-bottom: 20px;
     
 }
