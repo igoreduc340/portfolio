@@ -3,10 +3,28 @@
 <body>
     {% include 'header.html' %}
     <div>
-        <img class="imagens_skills" src="{% static 'images/python.jpg' %}">
-        <img class="imagens_skills" src="{% static 'images/Mysql_logo.png' %}">
-        <img class="imagens_skills" src="{% static 'images/html_css.jpg' %}">
-        
+        <div class="quadro_skills div_skills">
+            <img class="imagens_skills" src="{% static 'images/python.jpg' %}">
+            <progress value="70" max="100"></progress>
+        </div>
+        <div class ='quadro_skills div_skills'> 
+            <img class="imagens_skills" src="{% static 'images/Mysql_logo.png' %}">
+            <progress value="70" max="100"></progress>
+        </div>
+        <div class ='quadro_skills div_skills'> 
+            <img class="imagens_skills" src="{% static 'images/html_css.jpg' %}">
+            <progress value="30" max="100"></progress>
+        </div>
+        <div class ='quadro_skills div_skills'> 
+            <img class="imagens_skills" src="{% static 'images/docker2.png' %}">
+            <progress value="40" max="100"></progress>
+        </div>
+        <div class ='quadro_skills div_skills'> 
+            <img class="imagens_skills" src="{% static 'images/git2.png' %}">
+            <progress value="50" max="100"></progress>
+        </div>
+
+
     </div>
 </body>
 </html>

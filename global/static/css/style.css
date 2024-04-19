@@ -5,6 +5,7 @@ body{
     margin-top: 0px;
     background-color: #e4e5e3;
     background-image: url('../images/fosco.jpg');
+    overflow-x: hidden;
 }
 
 header {
@@ -118,6 +119,13 @@ h2{
     margin: 0; /* Remover margem padrão dos parágrafos dentro do quadro */
 }
 
+.div_skills{
+    width: 45%;
+    margin-left: 10px;
+    background-color: #000000;
+
+}
+
 div{
     display: inline-block;
     padding: 20px;
@@ -127,3 +135,28 @@ div{
     margin-bottom: 20px;
     
 }
+
+/* Estilizando a barra de progresso */
+progress {
+    width: 200px; /* largura da barra de progresso */
+    height: 20px; /* altura da barra de progresso */
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
+  
+  /* Alterando a cor da barra de progresso preenchida */
+  progress[value] {
+    appearance: none; /* remove o estilo padrão do navegador */
+  }
+  
+  /* Estilizando a barra de progresso preenchida */
+  progress[value]::-webkit-progress-value {
+    background-color: #4caf50; /* cor da barra de progresso preenchida */
+  }
+  
+  /* Estilizando a barra de progresso não preenchida */
+  progress[value]::-webkit-progress-bar {
+    background-color: #f0f0f0; /* cor de fundo da barra de progresso */
+  }
+  
+  
