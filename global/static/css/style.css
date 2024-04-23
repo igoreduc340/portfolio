@@ -16,6 +16,10 @@ header {
 
 }
 
+.btn-menu{
+    display: none;
+}
+
 
 
 /* Estilos para a barra de navegação */
@@ -159,4 +163,23 @@ progress {
     background-color: #f0f0f0; /* cor de fundo da barra de progresso */
   }
   
-  
+/* Media Queries para Responsividade */
+@media only screen and (max-width: 768px) {
+
+header {
+        padding: 20px;
+        align-items: center;
+    }
+.btn-menu{
+    display: block;
+    margin-left: 80%;
+    background-color: white;
+    padding: 8px;
+}
+nav {
+    display: none;
+    }
+
+
+
+            }
